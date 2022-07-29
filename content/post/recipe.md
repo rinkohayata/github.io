@@ -1,7 +1,7 @@
 ---
 title: "How to make the First Article"
 date: 2022-07-29T01:04:11-07:00
-draft: true
+draft: false
 ---
 
 # 1 Hugo
