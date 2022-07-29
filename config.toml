@@ -1,4 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://rinkohayata.github.io/github.io/"
 languageCode = "en-us"
 title = "aide-memoire"
 theme = "PaperMod"
+
+publishDir = "docs"
+
