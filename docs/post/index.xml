@@ -13,10 +13,7 @@
       <pubDate>Fri, 29 Jul 2022 01:04:11 -0700</pubDate>
       
       <guid>https://rinkohayata.github.io/github.io/post/recipe/</guid>
-      <description>1 Hugo 1-1 Hugoをインストールする ~&amp;gt; sudo apt install hugo ~&amp;gt; y ~&amp;gt; hugo version 1-2 Hugo用のディレクトリを作る ~&amp;gt; hugo new site NAME_THE_DIRECTORY ☆以下、NAME_THE_DIRECTORY=hugo-dir
-1-3 Hugo用のディレクトリにgitのローカルリポジトリを置く ~&amp;gt; cd hugo-dir ~/hugo-dir&amp;gt; git init ~/hugo-dir (master)&amp;gt; 1-4 Hugoからテーマを選ぶ PaperMod ver. hugo-dir (master)&amp;gt; git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1 hugo-dir (master)&amp;gt; echo &#39;theme = &amp;quot;PaperMod&amp;quot;&#39; &amp;gt;&amp;gt; config.toml 1-5 ローカル環境でテーマを設定できているか確認する hugo-dir (master)&amp;gt; hugo server 同じOSのブラウザでhttp://localhost:1313/を検索する
-サーバを終了するときは[Ctrl]+[C]
-2 GitHub </description>
+      <description>&lt;p&gt;&lt;code&gt;First Article&lt;/code&gt;ができるまでの過程です。&lt;/p&gt;</description>
     </item>
     
     <item>
