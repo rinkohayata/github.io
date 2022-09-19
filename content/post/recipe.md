@@ -1,16 +1,16 @@
 ---
-title: "How to make the First Article"
+title: "Hugo_インストールからサーバ起動まで"
 date: 2022-07-29T01:04:11-07:00
 draft: false
 ---
 
-`First Article`ができるまでの過程です。
+Updated: September 19, 2022  
+Goal: HugoとGitHub Pagesで静的サイトを作る  
+Step1: Hugoを導入する
 
 <!--more-->
 
-### 1 Hugo
-
-#### 1-1 Hugoをインストールする
+### 1 Hugoをインストールする
 
 ```
 ~> sudo apt install hugo
@@ -18,14 +18,14 @@ draft: false
 ~> hugo version
 ```
 
-#### 1-2 Hugo用のディレクトリを作る
+### 2 Hugo用のディレクトリを作る
 
 ```
 ~> hugo new site NAME_THE_DIRECTORY
 ```
 ☆以下、`NAME_THE_DIRECTORY`=`hugo-dir`
 
-#### 1-3 Hugo用のディレクトリにgitのローカルリポジトリを置く
+### 3 Hugo用のディレクトリにgitのローカルリポジトリを置く
 
 ```
 ~> cd hugo-dir
@@ -33,14 +33,14 @@ draft: false
 ~/hugo-dir (master)> 
 ```
 
-#### 1-4 Hugoからテーマを選ぶ PaperMod ver.
+### 4 Hugoからテーマを選ぶ PaperMod ver.
 
 ```
 hugo-dir (master)> git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
 hugo-dir (master)> echo 'theme = "PaperMod"' >> config.toml
 ```
 
-#### 1-5 ローカル環境でテーマを設定できているか確認する
+### 5 ローカル環境でテーマを設定できているか確認する
 
 ```
 hugo-dir (master)> hugo server
@@ -49,5 +49,4 @@ hugo-dir (master)> hugo server
 
 サーバを終了するときは[Ctrl]+[C]
 
-### 2 GitHub
 
